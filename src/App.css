@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+#maindiv {
+  color: blue;
+  font-size: large;
+  justify-content: end;
+  background-color: aqua;
+}
+
+.peliculadisponible{
+  color: black;
+  border: 1px black solid;
+  background-color: greenyellow;
+  justify-content: center;
+  text-align: left;
+  border-right-width:content;
+}
+
+.peliculacomprada {
+  color: black;
+  border: 1px black solid;
+  background-color: #ff0009;
+  justify-content: center;
+  text-align: left;
+  border-right-width:content;
+}

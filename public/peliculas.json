@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "La maldición de tutankhamon",
+        "año" : "1978",
+        "genero" : "ciencia ficción"
+    },
+    {
+        "id" : 2,
+        "nombre" : "El regreso de los muertos vivientes",
+        "año" :"1983",
+        "genero" :"terror"
+    },
+    {
+        "id" : 3,
+        "nombre":"Freddy vs Jason",
+        "año" :"2000",
+        "genero" : "terror"
+    },
+    {
+        "id" : 4,
+        "nombre":"El secreto de sus ojos",
+        "año" :"2009",
+        "genero" : "entretenimiento"
+    },
+    {
+        "id" : 5,
+        "nombre":"El planeta de los simios",
+        "año" : "2008",
+        "genero" : "documental"
+    },
+    {
+        "id": 6,
+        "nombre" : "El rey León",
+        "año":2018,
+        "genero": "animaciones"
+    }
+]
