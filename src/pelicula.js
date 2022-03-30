@@ -13,7 +13,7 @@ class Pelicula extends React.Component {
         Nombre: {this.props.nombre} <br />
         Año: {this.props.año} <br/>
         Genero: {this.props.genero} <hr/>
-        <button onClick={this.cambiaEstado}>COMPRAR</button>
+        <button onClick={this.cambiaEstado}>ALQUILAR</button>
       </div>
       }
       else {
@@ -22,7 +22,7 @@ class Pelicula extends React.Component {
         Año: {this.props.año} <br/>
         Genero: {this.props.genero} <br/>
         PELÍCULA YA ADQUIRIDA
-        <button onClick={this.cambiaEstado}>ANULAR</button>
+        <button onClick={this.cambiaEstado}>ANULAR COMPRA</button>
       </div>
     }
   }

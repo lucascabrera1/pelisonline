@@ -4,7 +4,9 @@ import Pelicula from './pelicula'
 class ColeccionPeliculas extends React.Component {
     state = {peliculas: []}
     componentDidMount(){
-        fetch('./peliculas.json').then(data => data.json()).then(data => {
+        fetch('./peliculas.json')
+        .then(data => data.json())
+        .then(data => {
             console.log(data);
             this.setState({peliculas : data});
         })
@@ -16,7 +18,8 @@ class ColeccionPeliculas extends React.Component {
             <td><Pelicula 
                 nombre={elem.nombre} 
                 año={elem.año} 
-                genero={elem.genero}>
+                genero={elem.genero}
+                precio = {elem.precio}>
             </Pelicula></td></tr>)}</table>
         return html;
     }

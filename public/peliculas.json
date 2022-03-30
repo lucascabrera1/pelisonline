@@ -3,7 +3,8 @@
         "id" : 1,
         "nombre" : "La maldición de tutankhamon",
         "año" : "1978",
-        "genero" : "ciencia ficción"
+        "genero" : "ciencia ficción",
+        "precio": 3000
     },
     {
         "id" : 2,
